@@ -37,3 +37,32 @@ console.log(profile1["address"]);
 profile1.Skills = ["HTML", "CSS", "JS"];
 
 console.log(profile1);
+
+var pes = {
+  Name: "Kernel",
+  Age: 25,
+  Primary_foot: "Right",
+  Height: 6.4,
+  Weight: 70,
+  idols: ["Messi", "Neymar", "Suarez"],
+  Celebration: {
+    primary: "Sui",
+    Secondary: "Kissing the badge",
+    others: "Summer Sault",
+  },
+};
+
+console.log(pes.Celebration.primary);
+console.log(pes.idols[0]);
+
+delete pes.Age;
+
+console.log(pes);
+pes.Age = 25;
+
+console.log(pes);
+// var names = ["Col", "Pal", "Mer"];
+
+// console.log(names);
+console.log("HAI");
+console.log(Object.values(pes));
